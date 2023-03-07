@@ -1,0 +1,42 @@
+.income-expense-box {}
+
+.boxx {
+    /* background-color: grey; */
+    display: flex;
+    margin-top: 10px;
+    max-width: 300px;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.icon {
+    height: 50px;
+    width: 17%;
+    border-radius: 30%;
+    margin-top: 4px;
+    color: white;
+}
+
+.expense {
+
+    background-color: #4424a7;
+}
+
+.income {
+    background-color: #09c0d7;
+}
+
+.detail h4 {
+    font-size: 20px;
+    padding: 16x 0px;
+}
+
+p {
+    color: rgb(175, 173, 173);
+}
+
+.arrow {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 9px;
+}
