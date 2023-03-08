@@ -3,6 +3,7 @@ import "./incomebox.css";
 import { RxArrowTopRight, RxArrowBottomLeft } from 'react-icons/rx'
 const Incomebox = () => {
     return <div className="income-expense-box">
+        <h4>Income / Expense</h4>
         <div className="boxx">
             <div className="icon expense"><RxArrowTopRight className="arrow" /></div>
             <div className="detail">

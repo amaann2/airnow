@@ -7,9 +7,13 @@
     max-width: 300px;
     justify-content: space-around;
     cursor: pointer;
+    height: 70px;
+    max-height: 100px;
+
 }
 
 .icon {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     height: 50px;
     width: 17%;
     border-radius: 30%;

@@ -1,5 +1,10 @@
 import React from "react";
 import "./transaction.css";
+import mastercard from "../../assets/mastercard.png";
+import paypal from "../../assets/paypal.png";
+import qiwi from "../../assets/qiwi.png";
+import webmoney from "../../assets/webmoney.png";
+import transferwise from "../../assets/transferwise.png";
 const Transaction = () => {
   return (
     <div className="transaction">
@@ -20,37 +25,55 @@ const Transaction = () => {
         </tr>
         <tr>
           <td>17 feb 2020, 16:30</td>
-          <td>Mastercard</td>
+          <td>
+            <img src={mastercard} className="table-img" alt="" />
+            Mastercard
+          </td>
           <td>pending</td>
           <td>-400.00$</td>
         </tr>
         <tr>
           <td>17 feb 2020, 16:30</td>
-          <td>Paypal</td>
+          <td>
+            <img src={paypal} className="table-img" alt="" />
+            Paypal
+          </td>
           <td>Done</td>
           <td>-400.00$</td>
         </tr>
         <tr>
           <td>17 feb 2020, 16:30</td>
-          <td>Qiwi</td>
+          <td>
+            <img src={qiwi} className="table-img" alt="" />
+            Qiwi
+          </td>
           <td>pending</td>
           <td>-400.00$</td>
         </tr>
         <tr>
           <td>17 feb 2020, 16:30</td>
-          <td>Transferwise</td>
+          <td>
+            <img src={transferwise} className="table-img" alt="" />
+            Transferwise
+          </td>
           <td>pending</td>
           <td>-400.00$</td>
         </tr>
         <tr>
           <td>17 feb 2020, 16:30</td>
-          <td>WebMoney</td>
+          <td>
+            <img src={webmoney} className="table-img" alt="" />
+            WebMoney
+          </td>
           <td>Done</td>
           <td>-400.00$</td>
         </tr>
         <tr>
           <td>17 feb 2020, 16:30</td>
-          <td>Mastercard</td>
+          <td>
+            <img src={mastercard} className="table-img" alt="" />
+            Mastercard
+          </td>
           <td>pending</td>
           <td>-400.00$</td>
         </tr>

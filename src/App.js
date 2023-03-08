@@ -9,10 +9,11 @@ function App() {
   return (
     <div className="container">
       <div className="box1">
-        <Menu />{" "}
+        <Menu />
       </div>
       <div className="box2">
         <Balance />
+        {/* hello */}
       </div>
       <div className="box3">
         <Piechart />
@@ -22,6 +23,7 @@ function App() {
       </div>
       <div className="box5">
         <Transaction />
+        {/* hello */}
       </div>
       <div className="box6">
         <Incomebox />

@@ -20,8 +20,8 @@ const Slider = () => {
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
+      breakpoint: { max: 500, min: 0 },
+      items: 2,
     },
   };
   const cardData = [
@@ -29,8 +29,6 @@ const Slider = () => {
       name: "paypal",
       price: "1-5%",
       imgUrl: "https://i.ibb.co/t38Gs6D/paypal.png ",
-      // imgUrl:
-      // "https://spng.pinpng.com/pngs/s/52-527945_paypal-logo-png-paypal-logo-transparent-png.png ",
     },
     {
       name: "MasterCard",
@@ -60,8 +58,8 @@ const Slider = () => {
         responsive={responsive}
         swipeable={true}
         draggable={true}
-        autoPlay={true}
-        autoPlaySpeed={1000}
+        // autoPlay={true}
+        autoPlaySpeed={2000}
       >
         {cardData.map((data) => (
           <Card data={data} />

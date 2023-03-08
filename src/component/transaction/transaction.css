@@ -5,30 +5,60 @@
 .heading {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .side {
     display: flex;
-    width: 250px;
+    width: 400px;
     justify-content: space-evenly;
 
 }
 
 table {
     display: inline-block;
-    height: 130px;
+    height: 160px;
     width: 100%;
     overflow-y: scroll;
+    /* overflow-x: auto; */
 }
-th{
-    color: lightslategrey;
+
+th {
+    color: rgb(167, 167, 168);
 
 }
-th ,td{
-    padding-left: 5rem;
+
+th,
+td {
+    padding-right: 6rem;
 }
 
 td {
     padding-top: 14px;
     text-align: left;
+}
+
+.table-img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }

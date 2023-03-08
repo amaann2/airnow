@@ -7,7 +7,7 @@ const Balance = () => {
   return (
     <div className="balance">
       <div className="heading">
-        <div className="name">Balance</div>
+        <h4>Balance</h4>
         <div className="profile">
           <AiOutlineBell className="user-icon" />
           <FaUserAlt className="user-icon" />

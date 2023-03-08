@@ -5,7 +5,7 @@ const Card = ({ data }) => {
     const { name, price, imgUrl } = data
     return <div className="card">
         <div className="heading">
-            <h4>{name}</h4>
+            <h5>{name}</h5>
             <div className="range">{price}</div>
         </div>
         <div className="img">
